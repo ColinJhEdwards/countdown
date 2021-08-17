@@ -14,7 +14,25 @@ body {
   align-items: center;
 }
 
-section {
+.coming-soon {
   flex-direction: column;
+  justify-content: space-around;
   min-height: 100vh;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+.countdown {
+  margin-top: 4rem;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 2rem;
 }
